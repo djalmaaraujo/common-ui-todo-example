@@ -1,0 +1,42 @@
+.TodoApp {
+  margin: 30px;
+}
+
+.TodoItem {
+  display: flex;
+}
+
+.TodoItem__title {
+  cursor: pointer;
+  flex-grow: 1;
+  margin: auto;
+}
+
+.TodoItem__title--complete {
+  text-decoration: line-through;
+}
+
+.TodoItem__remove {
+  cursor: pointer;
+}
+
+.TodoInput {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+.TodoList {
+  margin-top: 20px;
+  user-select: none;
+}
+
+.TodoContainer {
+  width: 300px;
+  background-color: #eee;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 2px 2px 6px -1px rgba(0, 0, 0, 0.75);
+}
