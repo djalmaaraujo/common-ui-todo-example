@@ -1,6 +1,6 @@
 import React from "react";
-import TodoInput from "/components/TodoInput";
-import TodoList from "/components/TodoList";
+import TodoInput from "./components/TodoInput";
+import TodoList from "./components/TodoList";
 
 import { Container } from "@follett/common-ui";
 
